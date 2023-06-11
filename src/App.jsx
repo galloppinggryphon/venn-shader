@@ -49,16 +49,16 @@ function App() {
    }
 
    useEffect( () => {
-      if ( isMounted.current ) {
-         vennControls.createChart( canvas )
-      }
-   }, [ signal ] )
-
-   useEffect( () => {
       if ( ! isMounted.current ) {
          isMounted.current = true
       }
-      else {
+
+      vennControls.createChart( canvas )
+   }, [ signal ] )
+
+   useEffect( () => {
+      if ( isMounted.current ) {
+         isMounted.current = true
          vennControls.update()
       }
    }, [ JSON.stringify( vennData.selectedAreas ) ] )
