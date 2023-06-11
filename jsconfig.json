@@ -1,0 +1,18 @@
+{
+   "compilerOptions": {
+      "checkJs": true,
+      "skipLibCheck": false,
+      "jsx": "preserve",
+      "target": "ES2022",
+      "moduleResolution": "node",
+      "module": "ESNext",
+      "lib": ["ES2022", "dom"],
+      "esModuleInterop": true,
+      "strictNullChecks": false,
+		"strict": false,
+      "noErrorTruncation": true,
+      "baseUrl": "src"
+   },
+   "include": ["src/**/*"],
+   "exclude": ["node_modules"]
+}
