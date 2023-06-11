@@ -69,17 +69,12 @@ export default function useVennControls( formatting, vennData ) {
          }
 
          if ( area === -1 ) {
-            // return
-            log( 'SELECT >> ', area, [ ...vennData.areaList ].slice( -1 )[ 0 ] )
-
-            this.toggleAreas( -1 )
+            // this.toggleAreas( -1 )
             vennData.toggleAreas( [ ...vennData.areaList ].slice( -1 )[ 0 ] )
             return
          }
 
          const name = typeof area === 'number' ? [ ...vennData.areaList ][ area ] : area
-
-         log( 'SELECT >> ', area, name, [ ...vennData.selectedAreas ] )
 
          // this.toggleAreas( area )
          vennData.toggleAreas( name )
