@@ -3,13 +3,12 @@
 Aid to visualizing unions and intersections between sets in Venn diagrams. I went looking for such a tool and (to my surprise) couldn’t really find a decent one. Very helpful when learning set theory.
 
 
-Supports Venn diagrams with two or three sets.
+[Supports Venn diagrams with two or three sets](https://galloppinggryphon.github.io/venn-shader/)
 
 
 🚀 Open the Venn Diagram Shading Tool
 
-
-!\[image info\](./public/vennshader-screenshot.png)
+![image info](./public/vennshader-screenshot.png)
 
 ## Credits
 
